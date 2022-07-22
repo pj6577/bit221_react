@@ -1,19 +1,3 @@
-console.log("hello world");
-var a = 1, b=2, d="Sting"
-console.log(a, b, d);
-
-console.log( typeof(a), typeof(b), typeof(d));
-console.log("값은 %d입니다", a, "타입은 ",typeof(a), "입니다");
-
-
-//ES6
-
-var json = {id : 'bitcamp'};
-
-console.log('Hell test ' + json.id  + ' good');
-console.log(`Hell test   ${json.id}   good`);
-
-
 /* [const]
   constant(상수)를 뜻
     '항상 같은 수'
@@ -28,3 +12,7 @@ console.log(`Hell test   ${json.id}   good`);
 
 
 
+  /*
+   var vs let 
+   */
+  
