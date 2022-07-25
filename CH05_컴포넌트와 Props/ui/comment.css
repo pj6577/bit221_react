@@ -1,0 +1,39 @@
+.comment{
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.user-info{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.user-info-name{
+  font-weight: bold;
+  color: #111;
+  line-height: 50px;
+}
+.comment-text{
+  border: 1px solid #111;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: auto;
+}
+.timeCheck{
+  text-align: left;
+  margin: auto;
+  padding-left: 5px;
+}
+.container {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>React의 세계에 여러분 환영합니다</h1>
+
+  <div id="root">
+    <!-- 여기에  -->
+
+  </div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script>
+    // 버튼 컴포넌트 생성
+    function MyButton(props){
+      const[isClicked, setIsClicked] = React.useState(false);
+      return React.createElement(
+        'button',
+        {onClick:()=> setIsClicked(true)},
+        isClicked ? 'Clicked!' : 'Click here!'
+      );
+    }
+
+    const domContainer = document.querySelector('#root');
+    ReactDOM.render(React.createElement(MyButton), domContainer);
+  </script>
+</body>
+
+</html>
