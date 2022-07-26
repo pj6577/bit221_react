@@ -1,30 +1,37 @@
-import React from 'react';
+import React from "react";
 
-const Book = ({title, page}) => {
-  let info ={
-    color : 'white',
-    backgroundColor : 'black',
+function Book(props){
+  let info = {
+    color: 'white',
+    backgroundColor : 'lightblue',
+    display: 'flex',
     border:'1px solid',
-    display : 'flex'
+
+
   };
 
   let img = {
-    width : '150px',
-    height :'100px',
-    borderRadius:'100px',
-    display :'flex'
+    width: '100px',
+    height: '100px',
+    borderRadius: '100px',
+    marginRight: '70px',
+
   }
-  let urling ="/images/simple/223.jpg";
-  return (
+  let urlImg = 'https://bimage.interpark.com/partner/goods_image/7/4/0/9/249927409g.jpg';
+
+  return(
     <div style={info}>
-      <img src ={urling} style={img}/>
+      <img src={urlImg} style={img} />
       <div>
-        <h2>{`이 책의 이름은 ${title}  입니다 `}</h2>
-        <h3>{`이 책은 총 ${page} 페이지 입니다`}</h3>
+        <h2> {` 이 책의 이름은 ${props.name} 입니다.`} </h2>
+        <h3>{` 이 책은 총 ${props.page} 입니다.`}</h3>
+        
       </div>
     </div>
   );
 };
 
+
+// 선언해야 다른 곳에서 이 컴포넌트 사용 가능
 export default Book;
-<Book />
+<Book title = "모두의 SQL" page='100'/>

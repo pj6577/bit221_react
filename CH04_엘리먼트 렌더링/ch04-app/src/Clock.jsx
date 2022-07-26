@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const Clock = () => {
+function Clock(props){
   let now = new Date().toLocaleDateString();
   let time = new Date().toLocaleTimeString();
-  return (
-    <div>
-      Time
-      <br />
-      <span>{now + time}</span>
-    </div>
+  return(
+    <>
+      <span>{now + " "+ time}</span>
+    </>
   );
-};
+}
 
 export default Clock;

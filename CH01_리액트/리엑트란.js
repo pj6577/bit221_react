@@ -1,4 +1,0 @@
-/*
-SPA()
-Virtual DOM
-*/

@@ -4,13 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Book from './Book';
-import Libary from './Libary';
+import Library from './Library';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Book title ="모두의 SQL" page='100'/>
-    <Book title = "리엑트" page='150' />
+    <Library/>
   </React.StrictMode>
 );
 

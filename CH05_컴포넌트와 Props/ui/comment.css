@@ -1,39 +1,43 @@
-.comment{
+.comment {
   margin: 8px;
   padding: 8px;
   display: flex;
 }
 
-.avatar{
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-}
-.user-info{
-  display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
 }
 
-.user-info-name{
+.user-info {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.user-info-name {
+  margin-top: 10px;
   font-weight: bold;
   color: #111;
-  line-height: 50px;
+  line-height: 20px;
 }
-.comment-text{
-  border: 1px solid #111;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  margin: auto;
+
+.comment-txt {
+  padding: 15px;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 15px;
 }
-.timeCheck{
-  text-align: left;
-  margin: auto;
-  padding-left: 5px;
-}
+
 .container {
   margin-left: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+.comment-date {
+  margin-top: 15px;
+}
+

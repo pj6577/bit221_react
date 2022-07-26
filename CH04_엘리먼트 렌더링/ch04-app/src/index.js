@@ -7,15 +7,14 @@ import Clock from './Clock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
-  root.render(
+root.render(
 
     <React.StrictMode>
-      <App />
-      <Clock />
+     <App/>
     </React.StrictMode>
-
-  );
-}, 1000);
+  
+);
+}, 1000)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
