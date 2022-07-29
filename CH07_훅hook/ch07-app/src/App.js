@@ -8,7 +8,9 @@ import UseEffect02 from './hooks/2_useEffect/UseEffect02';
 import UseEffect03 from './hooks/2_useEffect/UseEffect03';
 import UseCallback02 from './hooks/5_useCallback/UseCallback02';
 import UseCallback03 from './hooks/5_useCallback/UseCallback03';
+import Student from './hooks/6_useReducer/Student';
 import UseReducer02 from './hooks/6_useReducer/UseReducer02';
+import UseReducer03 from './hooks/6_useReducer/UseReducer03';
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <UseCallback02 />   
         <UseCallback03 />
         <UseReducer02 />
+        <UseReducer03 />
       </header>
     </div>
   );
