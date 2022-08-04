@@ -25,8 +25,6 @@ const MainPage = () => {
       hi zz777<br />
       <myBtt>bUtton</myBtt>
       </Wrapper>
-
-
     </div>
   );
 };
